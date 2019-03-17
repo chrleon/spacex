@@ -6,7 +6,7 @@ todo
  - bytte ut spheres med pngs
  - sørge for at stjernene fortsetter å komme (ring Array)
    https://processing.org/tutorials/arrays/
- 
+ - inspirasjon https://www.youtube.com/watch?v=FjfQNBYv2IY
  */
 
 Debris debris;
@@ -15,8 +15,8 @@ Debris[] specks = new Debris[200];
 PImage bg;
 
 void setup() {
-  //fullScreen(P3D);
-  size(800, 600, P3D);
+  fullScreen(P3D);
+  //size(800, 600, P3D);
   frameRate(60);
   bg = loadImage("wil-stewart-23388-unsplash.jpg");
   camera(
