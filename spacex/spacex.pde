@@ -2,6 +2,7 @@
 todo
  - justere kamera
  - laste bakgrunnsbilde
+ - justere bakgrunnsbilder så det er mer kontrastfylt
  - legge til bloom
  - bytte ut spheres med pngs
  - sørge for at stjernene fortsetter å komme (ring Array)
@@ -17,7 +18,7 @@ PImage bg;
 void setup() {
   fullScreen(P3D);
   //size(800, 600, P3D);
-  frameRate(60);
+  // frameRate(60);
   bg = loadImage("wil-stewart-23388-unsplash.jpg");
   camera(
     width/2.0, 
