@@ -19,7 +19,7 @@ void setup() {
   fullScreen(P3D);
   //size(800, 600, P3D);
   // frameRate(60);
-  bg = loadImage("wil-stewart-23388-unsplash.jpg");
+  bg = loadImage("blue-purple-space.jpg");
   camera(
     width/2.0, 
     height/2.0, 
