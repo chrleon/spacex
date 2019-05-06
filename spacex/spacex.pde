@@ -50,6 +50,9 @@ void draw() {
     specks[i].move();
     specks[i].display();
   }
+  if (frameCount == 50) {
+    saveFrame("preview" + day() + month() + year() + ".png");
+  }
 }
 
 class Debris {
